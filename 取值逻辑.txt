@@ -1,0 +1,5 @@
+目标帧率：MainCityPerfTargetFrameRate
+机型挡位：去重 MainCityPerfDeviceLevel  
+平均帧率 : MainCityPerfAvgFPS/10
+样本数量：  MainCityPerfDeviceLevel   出现的次数
+样本占比：单个MainCityPerfDeviceLevel   出现的次数  除以 所有 MainCityPerfDeviceLevel   
