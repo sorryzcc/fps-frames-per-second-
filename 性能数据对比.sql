@@ -132,7 +132,7 @@ FROM
                                 and MainCityPerfreserve3 = 0
                                 and MainCityPerfDevice != "tenc gamematrix"
                                 and MainCityPerfStayDuration > 30000
-                                AND thedate = DATE_FORMAT(CURDATE() - INTERVAL 2 DAY, '%Y%m%d')
+                                AND thedate = DATE_FORMAT(CURDATE(), '%Y%m%d')
                         )
                     ),
                     2
